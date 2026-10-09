@@ -28,7 +28,7 @@ jobs:
 
       - name: Check for new MEA flights
         env:
-          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          NTFY_TOPIC: ${{ secrets.NTFY_FLIGHT2ME }}
         run: python flight2me.py
 
       - name: Save seen flights
