@@ -1,4 +1,61 @@
 {
-  "routes": {},
-  "last_summary": "2026-10-09"
+  "routes": {
+    "DOH->BEY 2026-12-17": {
+      "MEA|9:10 PM on Thu, Dec 17|11:15 PM on Thu, Dec 17": {
+        "dep": "9:10 PM on Thu, Dec 17",
+        "arr": "11:15 PM on Thu, Dec 17",
+        "duration": "3 hr 5 min",
+        "price": "$532"
+      },
+      "MEA|7:55 PM on Thu, Dec 17|10:00 PM on Thu, Dec 17": {
+        "dep": "7:55 PM on Thu, Dec 17",
+        "arr": "10:00 PM on Thu, Dec 17",
+        "duration": "3 hr 5 min",
+        "price": "$573"
+      }
+    },
+    "DOH->BEY 2026-12-18": {
+      "MEA|3:50 AM on Fri, Dec 18|5:55 AM on Fri, Dec 18": {
+        "dep": "3:50 AM on Fri, Dec 18",
+        "arr": "5:55 AM on Fri, Dec 18",
+        "duration": "3 hr 5 min",
+        "price": "$532"
+      },
+      "MEA|7:55 PM on Fri, Dec 18|10:00 PM on Fri, Dec 18": {
+        "dep": "7:55 PM on Fri, Dec 18",
+        "arr": "10:00 PM on Fri, Dec 18",
+        "duration": "3 hr 5 min",
+        "price": "$504"
+      }
+    },
+    "BEY->DOH 2027-01-01": {
+      "MEA|2:45 PM on Fri, Jan 1|6:55 PM on Fri, Jan 1": {
+        "dep": "2:45 PM on Fri, Jan 1",
+        "arr": "6:55 PM on Fri, Jan 1",
+        "duration": "3 hr 10 min",
+        "price": "$468"
+      },
+      "MEA|10:40 PM on Fri, Jan 1|2:50 AM on Sat, Jan 2": {
+        "dep": "10:40 PM on Fri, Jan 1",
+        "arr": "2:50 AM on Sat, Jan 2",
+        "duration": "3 hr 10 min",
+        "price": "$468"
+      }
+    }
+  },
+  "last_summary": "2026-10-09",
+  "seen": {
+    "DOH->BEY 2026-12-17": [
+      "MEA|7:55 PM on Thu, Dec 17|10:00 PM on Thu, Dec 17",
+      "MEA|9:10 PM on Thu, Dec 17|11:15 PM on Thu, Dec 17"
+    ],
+    "DOH->BEY 2026-12-18": [
+      "MEA|3:50 AM on Fri, Dec 18|5:55 AM on Fri, Dec 18",
+      "MEA|7:55 PM on Fri, Dec 18|10:00 PM on Fri, Dec 18"
+    ],
+    "BEY->DOH 2027-01-01": [
+      "MEA|10:40 PM on Fri, Jan 1|2:50 AM on Sat, Jan 2",
+      "MEA|2:45 PM on Fri, Jan 1|6:55 PM on Fri, Jan 1"
+    ]
+  }
 }
