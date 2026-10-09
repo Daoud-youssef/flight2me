@@ -149,8 +149,9 @@ def load_state():
 
 def main():
     state = load_state()
-    first_run_ever = state is None
-    if first_run_ever:
+    # treat it as a first run until at least one search has worked
+    first_run_ever = state is None or not state.get("routes")
+    if state is None:
         state = {"routes": {}, "last_summary": ""}
 
     new_flights = []
