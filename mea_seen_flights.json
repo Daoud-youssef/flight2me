@@ -5,13 +5,13 @@
         "dep": "9:10 PM on Thu, Dec 17",
         "arr": "11:15 PM on Thu, Dec 17",
         "duration": "3 hr 5 min",
-        "price": "$532"
+        "price": "$529"
       },
       "MEA|7:55 PM on Thu, Dec 17|10:00 PM on Thu, Dec 17": {
         "dep": "7:55 PM on Thu, Dec 17",
         "arr": "10:00 PM on Thu, Dec 17",
         "duration": "3 hr 5 min",
-        "price": "$573"
+        "price": "$570"
       }
     },
     "DOH->BEY 2026-12-18": {
@@ -19,13 +19,13 @@
         "dep": "3:50 AM on Fri, Dec 18",
         "arr": "5:55 AM on Fri, Dec 18",
         "duration": "3 hr 5 min",
-        "price": "$532"
+        "price": "$529"
       },
       "MEA|7:55 PM on Fri, Dec 18|10:00 PM on Fri, Dec 18": {
         "dep": "7:55 PM on Fri, Dec 18",
         "arr": "10:00 PM on Fri, Dec 18",
         "duration": "3 hr 5 min",
-        "price": "$504"
+        "price": "$501"
       }
     },
     "BEY->DOH 2027-01-01": {
