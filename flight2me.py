@@ -13,7 +13,7 @@ flights on your dates and sends notifications to your phone via ntfy:
 The full list is also saved in latest_flights.md in your repository,
 so you can open it on GitHub at any time.
 
-The ntfy topic is read from the repository secret NTFY_TOPIC.
+The ntfy topic is read from the repository secret NTFY_FLIGHT2ME.
 """
 
 import json
@@ -37,7 +37,7 @@ MAX_PRICE = None           # e.g. 900 -> also alert on any fare at or below this
 # ------------------------------------------
 
 QATAR = timezone(timedelta(hours=3))
-NTFY_TOPIC = os.environ.get("NTFY_FLIGHT2ME", "").strip()
+NTFY_TOPIC = os.environ.get("NTFY_TOPIC", "").strip()
 HERE = Path(__file__).parent
 STATE_FILE = HERE / "mea_seen_flights.json"
 REPORT_FILE = HERE / "latest_flights.md"
@@ -45,7 +45,7 @@ REPORT_FILE = HERE / "latest_flights.md"
 
 def notify(title, message, urgent=False):
     if not NTFY_TOPIC:
-        print("  ! NTFY_TOPIC secret is missing, cannot notify")
+        print("  ! NTFY_FLIGHT2ME secret is missing, cannot notify")
         return
     try:
         requests.post(
