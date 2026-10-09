@@ -1,0 +1,39 @@
+name: Flight 2me
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"   # every 10 minutes (GitHub may delay a few minutes)
+  workflow_dispatch:          # adds a "Run workflow" button for manual runs
+
+permissions:
+  contents: write             # lets Flight 2me save the list of flights it has seen
+
+concurrency:
+  group: flight2me
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install
+        run: pip install "fast-flights==2.2" requests
+
+      - name: Check for new MEA flights
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: python flight2me.py
+
+      - name: Save seen flights
+        run: |
+          git config user.name "flight2me"
+          git config user.email "flight2me@users.noreply.github.com"
+          git add mea_seen_flights.json latest_flights.md
+          git diff --cached --quiet || (git commit -m "Update seen flights" && git pull --rebase && git push)
