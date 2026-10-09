@@ -3,7 +3,12 @@ name: Flight 2me
 on:
   schedule:
     - cron: "*/10 * * * *"   # every 10 minutes (GitHub may delay a few minutes)
-  workflow_dispatch:          # adds a "Run workflow" button for manual runs
+  workflow_dispatch:          # "Run workflow" button + external timer
+    inputs:
+      quiet:
+        description: "yes = started by the external timer (no list notification)"
+        required: false
+        default: "no"
 
 permissions:
   contents: write             # lets Flight 2me save the list of flights it has seen
@@ -29,6 +34,7 @@ jobs:
       - name: Check for new MEA flights
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_FLIGHT2ME }}
+          QUIET: ${{ inputs.quiet }}
         run: python flight2me.py
 
       - name: Save seen flights
