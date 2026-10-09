@@ -7,6 +7,8 @@ flights on your dates and sends notifications to your phone via ntfy:
   * First run       -> full list of all direct flights, times and prices
   * New flight      -> urgent alert for the new flight + the full list
   * Daily summary   -> full list once a day (time set in DAILY_SUMMARY_HOUR)
+  * Manual run      -> full list every time you press "Run workflow"
+  * Automatic runs  -> silent unless a new flight appears
 
 The full list is also saved in latest_flights.md in your repository,
 so you can open it on GitHub at any time.
@@ -35,7 +37,7 @@ MAX_PRICE = None           # e.g. 900 -> also alert on any fare at or below this
 # ------------------------------------------
 
 QATAR = timezone(timedelta(hours=3))
-NTFY_TOPIC = os.environ.get("NTFY_TOPIC", "").strip()
+NTFY_TOPIC = os.environ.get("NTFY_FLIGHT2ME", "").strip()
 HERE = Path(__file__).parent
 STATE_FILE = HERE / "mea_seen_flights.json"
 REPORT_FILE = HERE / "latest_flights.md"
@@ -195,6 +197,9 @@ def main():
                f"NEW:\n{new_text}\n\nALL DIRECT FLIGHTS:\n{full_list(state)}",
                urgent=True)
         print("  >>> NEW FLIGHT(S):", new_text.replace("\n", " | "))
+    elif os.environ.get("GITHUB_EVENT_NAME") == "workflow_dispatch":
+        # you pressed "Run workflow" yourself -> always send the full list
+        notify("Flight 2me - current flights", full_list(state))
     elif (DAILY_SUMMARY_HOUR is not None and now.hour >= DAILY_SUMMARY_HOUR
           and state.get("last_summary") != today):
         notify("Flight 2me daily summary", full_list(state))
