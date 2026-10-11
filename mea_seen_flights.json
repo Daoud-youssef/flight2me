@@ -5,27 +5,27 @@
         "dep": "7:55 PM on Thu, Dec 17",
         "arr": "10:00 PM on Thu, Dec 17",
         "duration": "3 hr 5 min",
-        "price": "$572"
+        "price": "MX$10523"
       },
       "MEA|9:10 PM on Thu, Dec 17|11:15 PM on Thu, Dec 17": {
         "dep": "9:10 PM on Thu, Dec 17",
         "arr": "11:15 PM on Thu, Dec 17",
         "duration": "3 hr 5 min",
-        "price": "$572"
+        "price": "MX$10523"
       }
     },
     "DOH->BEY 2026-12-18": {
-      "MEA|3:50 AM on Fri, Dec 18|5:55 AM on Fri, Dec 18": {
-        "dep": "3:50 AM on Fri, Dec 18",
-        "arr": "5:55 AM on Fri, Dec 18",
-        "duration": "3 hr 5 min",
-        "price": "$531"
-      },
       "MEA|7:55 PM on Fri, Dec 18|10:00 PM on Fri, Dec 18": {
         "dep": "7:55 PM on Fri, Dec 18",
         "arr": "10:00 PM on Fri, Dec 18",
         "duration": "3 hr 5 min",
-        "price": "$503"
+        "price": "MX$9258"
+      },
+      "MEA|3:50 AM on Fri, Dec 18|5:55 AM on Fri, Dec 18": {
+        "dep": "3:50 AM on Fri, Dec 18",
+        "arr": "5:55 AM on Fri, Dec 18",
+        "duration": "3 hr 5 min",
+        "price": "MX$9764"
       }
     },
     "BEY->DOH 2027-01-01": {
@@ -33,13 +33,13 @@
         "dep": "2:45 PM on Fri, Jan 1",
         "arr": "6:55 PM on Fri, Jan 1",
         "duration": "3 hr 10 min",
-        "price": "$468"
+        "price": "MX$8615"
       },
       "MEA|10:40 PM on Fri, Jan 1|2:50 AM on Sat, Jan 2": {
         "dep": "10:40 PM on Fri, Jan 1",
         "arr": "2:50 AM on Sat, Jan 2",
         "duration": "3 hr 10 min",
-        "price": "$468"
+        "price": "MX$8615"
       }
     }
   },
