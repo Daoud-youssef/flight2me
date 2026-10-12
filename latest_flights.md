@@ -4,8 +4,8 @@
 
 | Departs | Arrives | Duration | Price |
 |---|---|---|---|
+| 9:10 PM on Thu, Dec 17 | 11:15 PM on Thu, Dec 17 | 3 hr 5 min | $528 |
 | 7:55 PM on Thu, Dec 17 | 10:00 PM on Thu, Dec 17 | 3 hr 5 min | $528 |
-| 9:10 PM on Thu, Dec 17 | 11:15 PM on Thu, Dec 17 | 3 hr 5 min | $569 |
 
 ## DOH → BEY  2026-12-18
 
