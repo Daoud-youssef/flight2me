@@ -33,13 +33,13 @@
         "dep": "10:40 PM on Fri, Jan 1",
         "arr": "2:50 AM on Sat, Jan 2",
         "duration": "3 hr 10 min",
-        "price": "MX$7675"
+        "price": "$418"
       },
       "MEA|2:45 PM on Fri, Jan 1|6:55 PM on Fri, Jan 1": {
         "dep": "2:45 PM on Fri, Jan 1",
         "arr": "6:55 PM on Fri, Jan 1",
         "duration": "3 hr 10 min",
-        "price": "MX$8593"
+        "price": "$468"
       }
     }
   },
