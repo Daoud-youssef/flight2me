@@ -4,8 +4,8 @@
 
 | Departs | Arrives | Duration | Price |
 |---|---|---|---|
-| 9:10 PM on Thu, Dec 17 | 11:15 PM on Thu, Dec 17 | 3 hr 5 min | MX$9741 |
-| 7:55 PM on Thu, Dec 17 | 10:00 PM on Thu, Dec 17 | 3 hr 5 min | MX$9741 |
+| 9:10 PM on Thu, Dec 17 | 11:15 PM on Thu, Dec 17 | 3 hr 5 min | $531 |
+| 7:55 PM on Thu, Dec 17 | 10:00 PM on Thu, Dec 17 | 3 hr 5 min | $531 |
 
 ## DOH → BEY  2026-12-18
 
@@ -18,5 +18,5 @@
 
 | Departs | Arrives | Duration | Price |
 |---|---|---|---|
-| 10:40 PM on Fri, Jan 1 | 2:50 AM on Sat, Jan 2 | 3 hr 10 min | MX$7675 |
-| 2:45 PM on Fri, Jan 1 | 6:55 PM on Fri, Jan 1 | 3 hr 10 min | MX$8593 |
+| 10:40 PM on Fri, Jan 1 | 2:50 AM on Sat, Jan 2 | 3 hr 10 min | $418 |
+| 2:45 PM on Fri, Jan 1 | 6:55 PM on Fri, Jan 1 | 3 hr 10 min | $468 |
