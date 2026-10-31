@@ -4,19 +4,19 @@
 
 | Departs | Arrives | Duration | Price |
 |---|---|---|---|
-| 7:55 PM on Thu, Dec 17 | 10:00 PM on Thu, Dec 17 | 3 hr 5 min | CLP 566498 |
-| 9:10 PM on Thu, Dec 17 | 11:15 PM on Thu, Dec 17 | 3 hr 5 min | CLP 566498 |
+| 7:55 PM on Thu, Dec 17 | 10:00 PM on Thu, Dec 17 | 3 hr 5 min | $571 |
+| 9:10 PM on Thu, Dec 17 | 11:15 PM on Thu, Dec 17 | 3 hr 5 min | $571 |
 
 ## DOH → BEY  2026-12-18
 
 | Departs | Arrives | Duration | Price |
 |---|---|---|---|
-| 7:55 PM on Fri, Dec 18 | 10:00 PM on Fri, Dec 18 | 3 hr 5 min | CLP 498410 |
-| 3:50 AM on Fri, Dec 18 | 5:55 AM on Fri, Dec 18 | 3 hr 5 min | CLP 525645 |
+| 7:55 PM on Fri, Dec 18 | 10:00 PM on Fri, Dec 18 | 3 hr 5 min | $502 |
+| 3:50 AM on Fri, Dec 18 | 5:55 AM on Fri, Dec 18 | 3 hr 5 min | $530 |
 
 ## BEY → DOH  2027-01-01
 
 | Departs | Arrives | Duration | Price |
 |---|---|---|---|
-| 2:45 PM on Fri, Jan 1 | 6:55 PM on Fri, Jan 1 | 3 hr 10 min | CLP 464508 |
-| 10:40 PM on Fri, Jan 1 | 2:50 AM on Sat, Jan 2 | 3 hr 10 min | CLP 464508 |
+| 2:45 PM on Fri, Jan 1 | 6:55 PM on Fri, Jan 1 | 3 hr 10 min | $468 |
+| 10:40 PM on Fri, Jan 1 | 2:50 AM on Sat, Jan 2 | 3 hr 10 min | $468 |
