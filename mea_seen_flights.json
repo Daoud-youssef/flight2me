@@ -5,7 +5,7 @@
         "dep": "7:55 PM on Thu, Dec 17",
         "arr": "10:00 PM on Thu, Dec 17",
         "duration": "3 hr 5 min",
-        "price": "$879"
+        "price": "CLP 853784"
       }
     },
     "DOH->BEY 2026-12-18": {
@@ -13,13 +13,13 @@
         "dep": "7:55 PM on Fri, Dec 18",
         "arr": "10:00 PM on Fri, Dec 18",
         "duration": "3 hr 5 min",
-        "price": "$528"
+        "price": "CLP 513335"
       },
       "MEA|3:50 AM on Fri, Dec 18|5:55 AM on Fri, Dec 18": {
         "dep": "3:50 AM on Fri, Dec 18",
         "arr": "5:55 AM on Fri, Dec 18",
         "duration": "3 hr 5 min",
-        "price": "$570"
+        "price": "CLP 553231"
       }
     },
     "BEY->DOH 2027-01-01": {
@@ -27,13 +27,13 @@
         "dep": "10:40 PM on Fri, Jan 1",
         "arr": "2:50 AM on Sat, Jan 2",
         "duration": "3 hr 10 min",
-        "price": "$468"
+        "price": "CLP 454829"
       },
       "MEA|2:45 PM on Fri, Jan 1|6:55 PM on Fri, Jan 1": {
         "dep": "2:45 PM on Fri, Jan 1",
         "arr": "6:55 PM on Fri, Jan 1",
         "duration": "3 hr 10 min",
-        "price": "$623"
+        "price": "CLP 605525"
       }
     }
   },
