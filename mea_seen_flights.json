@@ -1,6 +1,12 @@
 {
   "routes": {
     "DOH->BEY 2026-12-17": {
+      "MEA|3:50 AM on Thu, Dec 17|5:55 AM on Thu, Dec 17": {
+        "dep": "3:50 AM on Thu, Dec 17",
+        "arr": "5:55 AM on Thu, Dec 17",
+        "duration": "3 hr 5 min",
+        "price": "$500"
+      },
       "MEA|9:10 PM on Thu, Dec 17|11:15 PM on Thu, Dec 17": {
         "dep": "9:10 PM on Thu, Dec 17",
         "arr": "11:15 PM on Thu, Dec 17",
