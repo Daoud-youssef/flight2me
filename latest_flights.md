@@ -12,8 +12,8 @@
 
 | Departs | Arrives | Duration | Price |
 |---|---|---|---|
-| 7:55 PM on Fri, Dec 18 | 10:00 PM on Fri, Dec 18 | 3 hr 5 min | $569 |
-| 3:50 AM on Fri, Dec 18 | 5:55 AM on Fri, Dec 18 | 3 hr 5 min | $877 |
+| 7:55 PM on Fri, Dec 18 | 10:00 PM on Fri, Dec 18 | 3 hr 5 min | $571 |
+| 3:50 AM on Fri, Dec 18 | 5:55 AM on Fri, Dec 18 | 3 hr 5 min | $881 |
 
 ## BEY → DOH  2027-01-01
 
