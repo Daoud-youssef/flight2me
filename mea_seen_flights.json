@@ -25,7 +25,7 @@
         "dep": "7:55 PM on Fri, Dec 18",
         "arr": "10:00 PM on Fri, Dec 18",
         "duration": "3 hr 5 min",
-        "price": "$528"
+        "price": "$569"
       },
       "MEA|3:50 AM on Fri, Dec 18|5:55 AM on Fri, Dec 18": {
         "dep": "3:50 AM on Fri, Dec 18",
@@ -49,7 +49,7 @@
       }
     }
   },
-  "last_summary": "2026-11-16",
+  "last_summary": "2026-11-17",
   "seen": {
     "DOH->BEY 2026-12-17": [
       "MEA|3:50 AM on Thu, Dec 17|5:55 AM on Thu, Dec 17",
