@@ -9,15 +9,15 @@
       }
     },
     "DOH->BEY 2026-12-18": {
-      "MEA|3:50 AM on Fri, Dec 18|5:55 AM on Fri, Dec 18": {
-        "dep": "3:50 AM on Fri, Dec 18",
-        "arr": "5:55 AM on Fri, Dec 18",
-        "duration": "3 hr 5 min",
-        "price": "$881"
-      },
       "MEA|8:15 PM on Fri, Dec 18|10:20 PM on Fri, Dec 18": {
         "dep": "8:15 PM on Fri, Dec 18",
         "arr": "10:20 PM on Fri, Dec 18",
+        "duration": "3 hr 5 min",
+        "price": "$571"
+      },
+      "MEA|3:50 AM on Fri, Dec 18|5:55 AM on Fri, Dec 18": {
+        "dep": "3:50 AM on Fri, Dec 18",
+        "arr": "5:55 AM on Fri, Dec 18",
         "duration": "3 hr 5 min",
         "price": "$881"
       }
