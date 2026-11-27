@@ -15,9 +15,9 @@
         "duration": "3 hr 5 min",
         "price": "$881"
       },
-      "MEA|7:55 PM on Fri, Dec 18|10:00 PM on Fri, Dec 18": {
-        "dep": "7:55 PM on Fri, Dec 18",
-        "arr": "10:00 PM on Fri, Dec 18",
+      "MEA|8:15 PM on Fri, Dec 18|10:20 PM on Fri, Dec 18": {
+        "dep": "8:15 PM on Fri, Dec 18",
+        "arr": "10:20 PM on Fri, Dec 18",
         "duration": "3 hr 5 min",
         "price": "$881"
       }
@@ -46,7 +46,8 @@
     ],
     "DOH->BEY 2026-12-18": [
       "MEA|3:50 AM on Fri, Dec 18|5:55 AM on Fri, Dec 18",
-      "MEA|7:55 PM on Fri, Dec 18|10:00 PM on Fri, Dec 18"
+      "MEA|7:55 PM on Fri, Dec 18|10:00 PM on Fri, Dec 18",
+      "MEA|8:15 PM on Fri, Dec 18|10:20 PM on Fri, Dec 18"
     ],
     "BEY->DOH 2027-01-01": [
       "MEA|10:40 PM on Fri, Jan 1|2:50 AM on Sat, Jan 2",
