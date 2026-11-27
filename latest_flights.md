@@ -17,5 +17,5 @@
 
 | Departs | Arrives | Duration | Price |
 |---|---|---|---|
-| 2:45 PM on Fri, Jan 1 | 6:55 PM on Fri, Jan 1 | 3 hr 10 min | $823 |
+| 3:05 PM on Fri, Jan 1 | 7:15 PM on Fri, Jan 1 | 3 hr 10 min | $823 |
 | 10:40 PM on Fri, Jan 1 | 2:50 AM on Sat, Jan 2 | 3 hr 10 min | $823 |
